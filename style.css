@@ -1,0 +1,51 @@
+.margin-top{
+  margin-top: 15px;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: url(IMAGENES/bg2.jpg);
+  Background-size: cover;
+  height: 60vh;
+}
+
+.titulo-fotos{
+  font-size: 1.2em;
+}
+
+.border{
+  border: 8px solid silver;
+  border-radius: 15px;
+  padding-bottom: 2vh;
+}
+
+p{
+  font-size: 0.7em;
+}
+
+.border-top{
+  width: 100%;
+  border-top: solid 0.3vh silver;
+  margin-top: 5vh;
+}
+
+.Album-text{
+  color: white;
+}
+
+footer{
+  height: 20vh;
+  border: 0.3vh solid grey;
+}
+
+footer img{
+  width: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
