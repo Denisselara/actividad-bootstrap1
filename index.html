@@ -2,8 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -14,7 +12,7 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="style.css">
     <title> Aprendiendo Bootstrap :)</title>
   </head>
 
@@ -24,14 +22,14 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="IMAGENES/logo.png" alt="" class="img-logonav">
-            <!--  <img src="IMAGENES/logo.png" alt="" class="img-responsive"> </a>-->
+            </button>-->
+            <a class="navbar-brand" href="#"><img src="IMAGENES/logo.png" alt="" class="img-logonav"> </a>
+
           </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,8 +60,9 @@
             <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
+              </ul>
         </div><!-- /.navbar-collapse -->
-    <!--  </div>  /.container-fluid  -->
+    </div>
     </nav>
   </header>
 
@@ -71,7 +70,7 @@
     <div class="jumbotron">
       <div class="row">
         <div class="col-md-3 col-sm-3 col-xs-3 "></div>
-        <div class="col-md-6 col-sm-6 col-xs-6">
+        <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="Album-text">
 <h1>Álbum Fotográfico</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -180,6 +179,7 @@
   </div> <!-- cierre col-md-4-->
 </div><!-- cierre margin-top-->
 </div><!-- cierre de mi tercer row de section-->
+</div> <!--cierre de container-->
 </section>
 
 <footer>
